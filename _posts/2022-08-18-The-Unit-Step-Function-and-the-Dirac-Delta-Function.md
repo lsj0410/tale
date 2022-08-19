@@ -16,7 +16,7 @@ but in theoretical signal processing problems people tend not to care very much 
 The unit step function (Image source: Wikipedia)
   
 </div>
-</br>
+<br/>
 
 The Dirac delta function $\delta(t)$ represents an impulse. It has a positive value at $0$ and a value of $0$ at all other points.
 There are several notable characteristics about the Dirac delta function. The first is that it is the derivative of the unit step function.
@@ -30,7 +30,7 @@ Thus in the continuous domain the value of the Dirac delta at $0$ diverges to $\
 The Dirac delta function (Image source: Wikipedia)
 
 </div>
-</br>
+<br/>
 
 While this series of posts will mainly cover signal processing in the discrete domain,
 it is worth understanding these basic functions in the continuous domain.
