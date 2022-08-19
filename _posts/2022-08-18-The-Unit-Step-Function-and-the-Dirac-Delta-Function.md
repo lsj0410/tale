@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[DSP] 2. The unit step function and the Dirac Delta Function"
+title: "[DSP] 2. The Unit Step Function and the Dirac Delta Function"
 author: "SJ Lee"
 tags: Digital Signal Processing
 ---
