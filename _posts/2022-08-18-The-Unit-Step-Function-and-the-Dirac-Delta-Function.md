@@ -17,6 +17,10 @@ but in theoretical signal processing problems people tend not to care very much 
   
 </div>
 
+|What is wrong with tables?|
+|--|
+|I have no idea|
+
 The Dirac delta function $\delta(t)$ represents an impulse. It has a positive value at $0$ and a value of $0$ at all other points.
 There are several notable characteristics about the Dirac delta function. The first is that it is the derivative of the unit step function.
 (See the graph of the unit step function above.) Another is that when integrated over the entire domain the result is $1$.
