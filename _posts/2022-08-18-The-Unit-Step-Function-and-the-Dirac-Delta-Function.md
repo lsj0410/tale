@@ -56,10 +56,12 @@ $$\int_a^b \delta(t)f(t) dt = f(0)$$
 An intuitive explanation for this formula is given below.
 
 $$
-\begin{aligned}
+\begin{equation}
+\begin{split}
 \int_a^b \delta(t)f(t) dt ={} & {\int_a^{0-} \delta(t)f(t) dt} + {\int_{0-}^{0+} \delta(t)f(t) dt} + {\int_{0+}^b \delta(t)f(t) dt} \\
-      & \int_{0-}^{0+} \delta(t)f(t) dt = \int_{0-}^{0+} \delta(t)f(0) dt = \int_{-\infty}^{\infty} \delta(t)f(0) dt = f(0)
-\end{aligned}
+      &= \int_{0-}^{0+} \delta(t)f(t) dt = \int_{0-}^{0+} \delta(t)f(0) dt = \int_{-\infty}^{\infty} \delta(t)f(0) dt = f(0)
+\end{split}
+\end{equation}
 $$
 
 Now we move our focus to the Fourier transform of these functions.
