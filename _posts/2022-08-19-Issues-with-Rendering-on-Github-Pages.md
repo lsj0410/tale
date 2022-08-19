@@ -37,7 +37,7 @@ After: `<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/asset
 
 # 3. Tables would not render
 
-I changed the build settings in my **_config.yml** file to `markdown: GFM` instead of `markdown: kramdown`
+I tried changing the build settings in my **_config.yml** file to `markdown: GFM` instead of `markdown: kramdown`
 
-After I made this change, the borders in my tables disappeared.
-However this does not really interfere with my intentions of using tables, so I don't have a problem with this.
+After I made this change, the table was rendered properly but without borders.
+Another problem was that my long equations started overflowing from the page.
