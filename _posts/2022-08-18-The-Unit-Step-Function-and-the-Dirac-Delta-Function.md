@@ -12,11 +12,10 @@ but in theoretical signal processing problems people tend not to care very much 
 <div align="center">
   
 |<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/unit_step.png?raw=true" />|
-|:--:|
+|--|
 |The unit step function (Image source: Wikipedia)|
   
 </div>
-</br>
 
 The Dirac delta function $\delta(t)$ represents an impulse. It has a positive value at $0$ and a value of $0$ at all other points.
 There are several notable characteristics about the Dirac delta function. The first is that it is the derivative of the unit step function.
@@ -24,13 +23,12 @@ There are several notable characteristics about the Dirac delta function. The fi
 Thus in the continuous domain the value of the Dirac delta at $0$ diverges to $\infty$, and in the discrete domain the value of the Dirac delta at $0$ is $1$.
 
 <div align="center">
-  
+
 |<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/dirac-delta.png?raw=true" />|
-|:--:|
+|--|
 |The Dirac delta function (Image source: Wikipedia)|
   
 </div>
-<br/>
 
 While this series of posts will mainly cover signal processing in the discrete domain,
 it is worth understanding these basic functions in the continuous domain.
@@ -58,7 +56,7 @@ An intuitive explanation for this formula is given below.
 $$
 \begin{equation}
 \begin{split}
-\int_a^b \delta(t)f(t) dt ={} & {\int_a^{0-} \delta(t)f(t) dt} + {\int_{0-}^{0+} \delta(t)f(t) dt} + {\int_{0+}^b \delta(t)f(t) dt} \\
+\int_a^b \delta(t)f(t) dt {} & ={\int_a^{0-} \delta(t)f(t) dt} + {\int_{0-}^{0+} \delta(t)f(t) dt} + {\int_{0+}^b \delta(t)f(t) dt} \\
       &= \int_{0-}^{0+} \delta(t)f(t) dt = \int_{0-}^{0+} \delta(t)f(0) dt = \int_{-\infty}^{\infty} \delta(t)f(0) dt = f(0)
 \end{split}
 \end{equation}
