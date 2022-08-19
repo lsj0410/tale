@@ -3,6 +3,7 @@ title:          Walk
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/"
 url:            "https://lsj0410.github.io"
+markdown: GFM
 
 # Google Analytics
 google_analytics: #UA—XXXXXXXX-X
