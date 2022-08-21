@@ -71,15 +71,13 @@ $$ inside(C) = \omega = \lbrace (x,y) \in \Omega : \phi (x,y) > 0 \rbrace $$
 
 $$ outside(C) = \Omega \backslash \bar{\omega} = \lbrace (x,y) \in \Omega : \phi (x,y)<0 \rbrace $$
 
-<br/>
+We will replace $C$ with $\phi$.
 
-We replace $C$ with $\phi$.
+<br/>
 
 We use the Heaviside function $H$. $H(z)=1$ if $z \geq 0$ and $H(z)=0$ if $z<0$.
 We also use the one-dimensional Dirac measure $\delta_0$ defined by $\delta_0 (z) = \frac{d}{dz} H(z)$.
 Now we can write the terms of the energy functional as the following.
-
-<br/>
 
 $$ \text{Length}(C)=\text{Length} \lbrace \phi =0 \rbrace = \int_{\Omega} |\nabla H(\phi(x,y))|dx dy = \int_{\Omega} \delta_0 (\phi(x,y))|\nabla \phi (x,y)|dx dy $$
 
@@ -130,6 +128,8 @@ $$ c_1 (\phi)=\frac{\int_\Omega u_0 (x,y)H(\phi(x,y))dx dy}{\int_\Omega H(\phi(x
 $$ c_2 (\phi)=\frac{\int_\Omega u_0 (x,y)(1-H(\phi(x,y)))dx dy}{\int_\Omega (1-H(\phi(x,y)))dx dy} $$
 
 Now we see that the energy functional is a function of $H(\phi)$, which is the characteristic function of $\omega$. 
+
+<br/>
 
 ## References
 
