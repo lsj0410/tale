@@ -2,7 +2,7 @@
 layout: post
 title: "[DSP] 1. Analog and Digital Signals"
 author: "SJ Lee"
-tags: DSP
+tags: Digital-Signal-Processing
 ---
 
 A **signal** is a function containing information, often of time or space. Examples of signals include music, movies, telegraphs— pretty much any media that conveys information.
