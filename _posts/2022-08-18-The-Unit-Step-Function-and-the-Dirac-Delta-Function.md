@@ -2,7 +2,7 @@
 layout: post
 title: "[DSP] 2. The Unit Step Function and the Dirac Delta Function"
 author: "SJ Lee"
-tags: DSP
+tags: Digital-Signal-Processing
 ---
 
 The unit step function $u(t)$ takes the value of $1$ when $t$ is positive and $0$ when $t$ is negative.
