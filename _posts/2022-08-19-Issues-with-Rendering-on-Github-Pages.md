@@ -54,18 +54,16 @@ In the end the problem was not resolved and I removed the tables.
 
 # 4. Multi-line equations were not numbered
 
-I changed `aligned` to `split`.
+I added `begin{equation}`, `end{equation}` and changed `aligned` to `split`.
 
 Before:
 
 ```
 $$
-\begin{equation}
 \begin{aligned}
 \int_a^b \delta(t)f(t) dt {} & ={\int_a^{0-} \delta(t)f(t) dt} + {\int_{0-}^{0+} \delta(t)f(t) dt} + {\int_{0+}^b \delta(t)f(t) dt} \\
       &= \int_{0-}^{0+} \delta(t)f(t) dt = \int_{0-}^{0+} \delta(t)f(0) dt = \int_{-\infty}^{\infty} \delta(t)f(0) dt = f(0)
 \end{aligned}
-\end{equation}
 $$
 ```
 
