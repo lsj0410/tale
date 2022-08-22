@@ -2,7 +2,7 @@
 layout: post
 title: "A Guide to this Blog"
 author: "SJ Lee"
-tags: Digtal-Signal-Processing Digital-Image-Processing Edge-Detection
+tags: Digital-Signal-Processing Digital-Image-Processing Edge-Detection
 sticky: True
 excerpt_separator: <!--more-->
 ---
