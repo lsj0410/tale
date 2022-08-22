@@ -9,8 +9,8 @@ excerpt_separator: <!--more-->
 
 This blog covers the following topics:
 
-**Digital Signal Processing** (Tag: DSP)
+**Digital Signal Processing/Digital Image Processing**
 
-**Computer Networks** (Tag: CN)
+**Computer Networks**
 
-**Edge Detection** (Tag: ED)
+**Edge Detection**
