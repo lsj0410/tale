@@ -52,6 +52,9 @@ After I made this change, the table was rendered properly but without borders.
 Another problem was that the math went rather weird.
 In the end the problem was not resolved and I removed the tables.
 
+220823 update) The problem with maths mentioned above was the multiline equations not splitting. 
+Using `markdown.GFM` and six backslashes instead of two for line breaks solved the problem. (See 4.)
+
 # 4. Multi-line equations were not numbered
 
 I added `begin{equation}`, `end{equation}` and changed `aligned` to `split`.
@@ -74,6 +77,21 @@ $$
 \begin{equation}
 \begin{split}
 \int_a^b \delta(t)f(t) dt {} & ={\int_a^{0-} \delta(t)f(t) dt} + {\int_{0-}^{0+} \delta(t)f(t) dt} + {\int_{0+}^b \delta(t)f(t) dt} \\
+      &= \int_{0-}^{0+} \delta(t)f(t) dt = \int_{0-}^{0+} \delta(t)f(0) dt = \int_{-\infty}^{\infty} \delta(t)f(0) dt = f(0)
+\end{split}
+\end{equation}
+$$
+```
+
+220823 update)
+
+After 2:
+
+```
+$$
+\begin{equation}
+\begin{split}
+\int_a^b \delta(t)f(t) dt {} & ={\int_a^{0-} \delta(t)f(t) dt} + {\int_{0-}^{0+} \delta(t)f(t) dt} + {\int_{0+}^b \delta(t)f(t) dt} \\\\\\
       &= \int_{0-}^{0+} \delta(t)f(t) dt = \int_{0-}^{0+} \delta(t)f(0) dt = \int_{-\infty}^{\infty} \delta(t)f(0) dt = f(0)
 \end{split}
 \end{equation}
