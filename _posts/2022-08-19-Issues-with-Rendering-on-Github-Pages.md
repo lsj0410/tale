@@ -13,7 +13,7 @@ This post will be updated if new problems emerge or better solutions are found.
 
 # 1. Math expressions would not render
 
-I added the following code to the bottom of my **_config.yml** file above **</head>**.
+I added the following code to the bottom of my **_config.yml** file above `</head>`.
 
 ```
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
