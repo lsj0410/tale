@@ -23,8 +23,8 @@ The energy functional $F$ is defined as the following.
 $$
 \begin{equation}
 \begin{split}
-F(c_1,c_2,C) {} & = \mu \cdot \text{Length}(C)+\nu \cdot \text{Area}(inside(C)) \\
-  & + \lambda_1 {\int_{inside(C)}|u_0 (x,y)-c_1 |^2 dxdy} \\
+F(c_1,c_2,C) {} & = \mu \cdot \text{Length}(C)+\nu \cdot \text{Area}(inside(C)) \\\\\\
+  & + \lambda_1 {\int_{inside(C)}|u_0 (x,y)-c_1 |^2 dxdy} \\\\\\
   & + \lambda_2 {\int_{outside(C)}|u_0 (x,y)-c_2 |^2 dxdy}
 \end{split}
 \end{equation}
@@ -86,7 +86,7 @@ $$ \text{Area}(inside(C))= \text{Area} \lbrace \phi \geq 0 \rbrace = \int_{\Omeg
 $$
 \begin{equation}
 \begin{split}
-\int_{inside(C)} |u_0 (x,y)-c_1 |^2 dx dy {} & = \int_{\phi>0}|u_0 (x,y)-c_1 |^2 dx dy \\
+\int_{inside(C)} |u_0 (x,y)-c_1 |^2 dx dy {} & = \int_{\phi>0}|u_0 (x,y)-c_1 |^2 dx dy \\\\\\
   & =\int_\Omega |u_0 (x,y)-c_1 |^2 H(\phi(x,y))dx dy
 \end{split}
 \end{equation}
@@ -95,7 +95,7 @@ $$
 $$ 
 \begin{equation}
 \begin{split}
-\int_{outside(C)} |u_0 (x,y)-c_2 |^2 dx dy {} & = \int_{\phi<0}|u_0 (x,y)-c_2 |^2 dx dy \\
+\int_{outside(C)} |u_0 (x,y)-c_2 |^2 dx dy {} & = \int_{\phi<0}|u_0 (x,y)-c_2 |^2 dx dy \\\\\\
   & =\int_\Omega |u_0 (x,y)-c_2 |^2 (1-H(\phi(x,y))) dx dy
 \end{split}
 \end{equation}
@@ -108,8 +108,8 @@ Then we can rewrite the energy functional as the following.
 $$
 \begin{equation}
 \begin{split}
-F(c_1,c_2,\phi) {} & =\mu \int_\Omega \delta_0 (\phi(x,y))|\nabla \phi (x,y)|dx dy + \nu \int_\Omega H(\phi(x,y))dx dy \\
-  & + \lambda_1 \int_\Omega |u_0 (x,y)-c_1 |^2 H(\phi(x,y))dx dy \\
+F(c_1,c_2,\phi) {} & =\mu \int_\Omega \delta_0 (\phi(x,y))|\nabla \phi (x,y)|dx dy + \nu \int_\Omega H(\phi(x,y))dx dy \\\\\\
+  & + \lambda_1 \int_\Omega |u_0 (x,y)-c_1 |^2 H(\phi(x,y))dx dy \\\\\\
   & +\lambda_2 \int_\Omega |u_0 (x,y)-c_2 |^2 (1-H(\phi(x,y)))dx dy
 \end{split}  
 \end{equation}
