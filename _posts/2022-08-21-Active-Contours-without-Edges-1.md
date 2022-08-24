@@ -2,7 +2,7 @@
 layout: post
 title: "[ED] 1. Active Contours without Edges [1]"
 author: "SJ Lee"
-tags: Edge-Detection
+tags: Edge-Detection Paper-Review
 ---
 
 I am reading the paper [*Active Contours without Edges*](https://ieeexplore.ieee.org/abstract/document/902291?casa_token=sLi7QkfrH70AAAAA:RuzDg6_sDE5a9pYCxARH8DcSnPv9W19D-_fUQj4_gggAsBfEwX2KXHq-5uO9ypLs8yCqxxvhBw)
