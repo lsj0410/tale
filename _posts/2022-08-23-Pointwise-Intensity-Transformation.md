@@ -20,9 +20,9 @@ Every pixel that has the same intensity in the original image must have the same
 
 <div align = "center">
 
-<img src = "https://user-images.githubusercontent.com/63445411/186169976-6a7c02ce-db59-4b98-959d-3b98b46ba2f7.png">
-
-Figure 1. Pointwise intensity transformations
+|<img src = "https://user-images.githubusercontent.com/63445411/186169976-6a7c02ce-db59-4b98-959d-3b98b46ba2f7.png">|
+|:--:|
+|Figure 1. Pointwise intensity transformations|
 
 </div>
 
