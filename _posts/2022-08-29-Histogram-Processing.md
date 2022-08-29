@@ -11,9 +11,9 @@ Again we begin with our dog picture from the last post.
 
 <div align = "center">
   
-  <img src="https://user-images.githubusercontent.com/63445411/186171143-f76d869f-034b-4c46-b0ab-479874269486.png">
-  
-  Figure 1. Original image
+  |<img src="https://user-images.githubusercontent.com/63445411/186171143-f76d869f-034b-4c46-b0ab-479874269486.png">|
+  |:--:|
+  |Figure 1. Original image|
   
 </div>
 
@@ -26,9 +26,9 @@ plt.hist(img)
 
 <div align = "center">
   
-  <img src="https://user-images.githubusercontent.com/63445411/187153957-adcd6031-f35d-48d1-9012-88c9bc04f10d.png">
-  
-  Figure 2. Histogram of original image
+  |<img src="https://user-images.githubusercontent.com/63445411/187153957-adcd6031-f35d-48d1-9012-88c9bc04f10d.png">|
+  |:--:|
+  |Figure 2. Histogram of original image|
   
 </div>
 
@@ -52,9 +52,9 @@ Then we can also think of $ P_x(i) = \sum_{j=0}^i p_x(j) $, a cumulative distrib
 
 <div align = "center">
   
-  <img src="https://user-images.githubusercontent.com/63445411/187167039-5cb35ed8-e824-4f4e-ae65-76431973afd8.png">
-  
-  Figure 3. Cumulative distribution function of original image
+  |<img src="https://user-images.githubusercontent.com/63445411/187167039-5cb35ed8-e824-4f4e-ae65-76431973afd8.png">|
+  |:--:|
+  |Figure 3. Cumulative distribution function of original image|
   
 </div>
 
@@ -71,9 +71,9 @@ Following is a histogram processed version of our dog image.
 
 <div align = "center">
   
-  <img src = "https://user-images.githubusercontent.com/63445411/187164083-d7db1a45-5a3d-411a-a8eb-dcb008ffd98e.png">
-  
-  Figure 4. Transformed image
+  |<img src = "https://user-images.githubusercontent.com/63445411/187164083-d7db1a45-5a3d-411a-a8eb-dcb008ffd98e.png">|
+  |:--:|
+  |Figure 4. Transformed image|
   
 </div>
 
@@ -81,9 +81,9 @@ We can see that the background, which looked consistently bright in the original
 
 <div align = "center">
   
-  <img src="https://user-images.githubusercontent.com/63445411/187164124-8620f0b8-93c3-4eb0-a9a4-8b627033ca6e.png">
-  
-  Figure 5. Histogram of transformed image
+  |<img src="https://user-images.githubusercontent.com/63445411/187164124-8620f0b8-93c3-4eb0-a9a4-8b627033ca6e.png">|
+  |:--:|
+  |Figure 5. Histogram of transformed image|
   
 </div>
 
@@ -104,6 +104,7 @@ The cumulative distribution would start out even and rise sharply near the end.
 Using this function for intensity transformation would spread out the bright pixels to a wider intensity range.
 
 <br/>
+
 The code used for generating the images can be found [here](https://github.com/lsj0410/Digital-Signal-Processing/tree/main/dip-02).
 
 ## References
