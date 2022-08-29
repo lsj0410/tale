@@ -17,6 +17,8 @@ Again we begin with our dog picture from the last post.
   
 </div>
 
+<br/>
+
 This simple python code generates a histogram of the image.
 
 ```
@@ -31,6 +33,8 @@ plt.hist(img)
   |Figure 2. Histogram of original image|
   
 </div>
+
+<br/>
 
 Figure 2 shows us that most of the intensity values of the pixels are located in the 180-220 zone.
 Our goal is transforming this image so that the histogram is generally flat.
@@ -58,6 +62,8 @@ Then we can also think of $ P_x(i) = \sum_{j=0}^i p_x(j) $, a cumulative distrib
   
 </div>
 
+<br/>
+
 Figure 3 shows the cumulative distribution function of Figure 1.
 
 Let $y(n)$ denote the intensity value of the pixel in the transformed image at location $n$.
@@ -77,6 +83,8 @@ Following is a histogram processed version of our dog image.
   
 </div>
 
+<br/>
+
 We can see that the background, which looked consistently bright in the original image, takes a more distributed intensity.
 
 <div align = "center">
@@ -86,6 +94,8 @@ We can see that the background, which looked consistently bright in the original
   |Figure 5. Histogram of transformed image|
   
 </div>
+
+<br/>
 
 Figure 5 demonstrates the histogram corresponding to Figure 4.
 We see that it is indeed much flatter than Figure 2.
