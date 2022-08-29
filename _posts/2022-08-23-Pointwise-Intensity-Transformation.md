@@ -26,6 +26,8 @@ Every pixel that has the same intensity in the original image must have the same
 
 </div>
 
+<br/>
+
 Figure 1 describes several examples of pointwise intensity transformations.
 The identity maps the image to an identical image.
 The negative turns the bright parts of the image dark and the dark parts bright.
