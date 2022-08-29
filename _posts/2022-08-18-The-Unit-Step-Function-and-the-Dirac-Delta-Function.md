@@ -11,9 +11,9 @@ but in theoretical signal processing problems people tend not to care very much 
 
 <div align="center">
  
-<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/unit_step.png?raw=true" />
- 
-The unit step function (Image source: Wikipedia)
+|<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/unit_step.png?raw=true" />|
+|:--:| 
+|Figure 1. The unit step function (Image source: Wikipedia)|
   
 </div>
 <br/>
@@ -25,9 +25,9 @@ Thus in the continuous domain the value of the Dirac delta at $0$ diverges to $\
 
 <div align="center">
 
-<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/dirac-delta.png?raw=true" />
- 
-The Dirac delta function (Image source: Wikipedia)
+|<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/dirac-delta.png?raw=true" />|
+|:--:| 
+|Figure 2. The Dirac delta function (Image source: Wikipedia)|
 
 </div>
 <br/>
