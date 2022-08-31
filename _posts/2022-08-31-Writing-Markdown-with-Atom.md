@@ -23,6 +23,8 @@ To install a package in atom, navigate to 'File'-'Settings' and move to the 'Ins
 
 </div>
 
+<br/>
+
 `markdown-preview-enhanced` has several advantages to the default Markdown preview Atom provides. For me the greatest merit was that it rendered math in `MathJax`. Another convenient function is the Image Helper. Navigate to the command palette with `ctrl+shift+p` and type 'image helper'. Simply drag your local image to the 'Upload' box and the Image Helper generates a url. This makes the tedious process of inserting images in Markdown a lot easier. Some other features of markdown-preview-enhanced include synchronized scrolling between your markdown file and the preview, running code chunks, and TOC(Table of Contents) generation.
 
 <br/>
