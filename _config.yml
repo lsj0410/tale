@@ -14,7 +14,7 @@ author:
   email:        ""
 
 # Build settings
-markdown:       GFM
+markdown:       kramdown
 highlighter:    rouge
 include:
   - _pages
