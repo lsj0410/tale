@@ -11,10 +11,10 @@ but in theoretical signal processing problems people tend not to care very much 
 
 <div align="center">
  
-|<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/unit_step.png?raw=true" />|
+|<img src="https://user-images.githubusercontent.com/63445411/188064726-de6e0227-d909-4581-bb1c-ebe9272ecbc6.png" />|
 |:--:| 
 |Figure 1. The unit step function (Image source: Wikipedia)|
-  
+
 </div>
 <br/>
 
@@ -25,12 +25,13 @@ Thus in the continuous domain the value of the Dirac delta at $0$ diverges to $\
 
 <div align="center">
 
-|<img src="https://github.com/lsj0410/lsj0410.github.io/blob/master/assets/images/dsp-02/dirac-delta.png?raw=true" />|
+|<img src="https://user-images.githubusercontent.com/63445411/188064810-c5c7f06d-84dc-4dd5-9b4b-c771192de49a.png" />|
 |:--:| 
 |Figure 2. The Dirac delta function (Image source: Wikipedia)|
 
 </div>
 <br/>
+
 
 While this series of posts will mainly cover signal processing in the discrete domain,
 it is worth understanding these basic functions in the continuous domain.
