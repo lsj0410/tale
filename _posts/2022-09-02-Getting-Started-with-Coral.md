@@ -53,8 +53,11 @@ Now we can connect to our Coral board with mdt. Here are some of the `mdt` comma
 <br/>
 
 `mdt devices`: looks for Coral boards nearby
+
 `mdt shell`: connects to Coral board
+
 `mdt push <FILE>`: pushes file from local computer to Coral board
+
 <br/>
 
 Keep in mind that the `mdt` commands are used when *not* connected to the Coral board. You cannot push a local file to Coral with `mdt push` when you are already connected to Coral. You must run `exit` to break the connection before pushing files.
