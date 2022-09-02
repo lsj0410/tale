@@ -21,7 +21,7 @@ Again we begin with our dog picture from the last post.
 
 This simple python code generates a histogram of the image.
 
-```
+```python
 import matplotlib as plt
 plt.hist(img)
 ```
