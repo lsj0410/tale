@@ -9,9 +9,11 @@ excerpt_separator: <!--more-->
 
 This blog covers the following topics:
 
-**Digital Signal Processing/Digital Image Processing**
+**[Digital Signal Processing](https://lsj0410.github.io/tags/#Digital-Signal-Processing)/[Digital Image Processing](https://lsj0410.github.io/tags/#Digital-Image-Processing)**
 
-**Edge Detection**
+**[Edge Detection and Segmentation](https://lsj0410.github.io/tags/#Edge-Detection)**
+
+**[Edge AI(Coral)](https://lsj0410.github.io/tags/#Coral)**
 
 <br/>
 
