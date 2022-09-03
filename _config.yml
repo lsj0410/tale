@@ -12,6 +12,8 @@ author:
   name:         SJ Lee
   url:          "https://sites.google.com/snu.ac.kr/seungjulee"
   email:        "seungj11@snu.ac.kr"
+  github: lsj0410
+  linkedin: seungju-l-35ba851a4
 
 # Build settings
 markdown:       GFM
@@ -40,21 +42,3 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
-
-footer-links:
-  email: seungj11@snu.ac.kr
-  facebook:
-  flickr:
-  github: lsj0410
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram: 
-  linkedin: seungju-l-35ba851a4
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  tumblr: # https://<username>.tumblr.com
-  twitter:
-  youtube: # channel/<your_long_string> or user/<user-name>
-  
-footer-text: &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
-
