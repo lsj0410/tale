@@ -1,1 +1,3 @@
-Previous blog built on [Tale](https://github.com/chesterhow/tale).
+SJ Lee blog.
+
+Built on [Tale](https://github.com/chesterhow/tale).
