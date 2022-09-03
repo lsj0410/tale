@@ -1,6 +1,18 @@
-{% include svg-icons.html %}
+<footer class="mt-auto py-3 text-center">
 
-{% if site.footer-text %}
-<p>{{ site.footer-text }}</p>
-{% endif %}
+  <small class="text-muted mb-2">
+    <!--i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>{{ site.author.name }}</strong-->
+    <!--Hosted on <a href=https://github.com/lillemets/lillemets.github.io target="_blank"><strong>GitHub</strong></a>-->
+  </small>
 
+  {% include social.html %}
+<!--
+  {%- assign theme_name = "portfolYOU" -%}
+  {%- assign theme_repo = "https://github.com/YoussefRaafatNasry/portfolYOU" -%}
+  <small id="attribution">
+    theme <a href="{{ theme_repo }}">{{ theme_name }}</a>
+  </small>
+-->
+  
+</footer>
