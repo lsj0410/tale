@@ -33,7 +33,6 @@ Open the [Git Bash](https://gitforwindows.org/) terminal and enter the following
 {% highlight markdown %}
 $ echo "alias python='winpty /C/Executables/Python37_64/python.exe'" >> ~/.bash_profile
 $ source ~/.bash_profile
-```
 {% endhighlight %}
 
 <br/>
@@ -41,13 +40,11 @@ $ source ~/.bash_profile
 Then install the [Mendel Development Tool(mdt)](https://coral.ai/docs/dev-board/mdt/) with the following code. Replace `Executables/Python37_64` with the location of your python executable file.
 
 {% highlight markdown %}
-```
 $ python -m pip install mendel-development-tool
 $ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bash_profile
 $ echo 'export PATH="$PATH:$HOME/Executables/Python37_64/Scripts"' >> ~/.bash_profile
 $ echo "alias mdt='winpty mdt'" >> ~/.bash_profile
 $ source ~/.bash_profile
-```
 {% endhighlight %}
 
 <br/>
@@ -69,9 +66,7 @@ When connecting to Coral for the first time, first run `mdt devices`. Git bash w
 Now we can connect the board to Wi-Fi to access the board more easily. Use the following command. Replace `<NETWORK_NAME>` and `<PASSWORD>` with corresponding values.
 
 {% highlight markdown %}
-```
 nmcli dev wifi connect <NETWORK_NAME> password <PASSWORD> ifname wlan0
-```
 {% endhighlight %}
 
 <br/>
