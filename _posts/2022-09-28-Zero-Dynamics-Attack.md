@@ -17,12 +17,12 @@ We use differential equations to describe a linear system. There are multiple fo
 $$
 \begin{equation}
 \begin{split}
-\dot{x_1} & = x_2 \\
-\dot{x_2} & = x_3 \\
-{} & \; \; \vdots \\
-\dot{x_{r - 1}} & = x_{r} \\
-\dot{x_r} & = \phi_: ^ T x_: + \phi_z^T x_z+ bu \\
-\dot{x_z} & = Sx_z+px_1 \\
+\dot{x_1} & = x_2 \\\\\\
+\dot{x_2} & = x_3 \\\\\\
+{} & \vdots \\\\\\
+\dot{x_{r - 1}} & = x_{r} \\\\\\
+\dot{x_r} & = \phi_: ^ T x_: + \phi_z^T x_z+ bu \\\\\\
+\dot{x_z} & = Sx_z+px_1 \\\\\\
 y & = x_1
 \end{split}
 \end{equation}
@@ -48,7 +48,7 @@ There are two major types of attacks in a modern control system. One is the **ac
 
 <br/>
 
-A **stealthy** attack is an attack that cannot be detected at the output. Obviously, these kind of attacks are particularly dangerous. A **disruptive** atttack is an attack that makes part of a system diverge. Let us denote the detection level as $L_\text{detect}$ and the hazard level as $L_\text{hazard}$, the actual state and output as $x$ and $y$ and the attack-free state and output as $x_{\text{af}}$ and $y_{\text{af}}$. Then a disruptive attack is an attack such that $||x(t^*)-x_\text{af}(t^*)|| \geq L_\text{hazard}$ for some $t^* \geq t_0$. For this attack to be stealthy, it must satisfy $||y(t)-y_{\text{af}}(t)|| \leq L_\text{detect}$ for all $t \in [t_0, t^*]$. [1]
+A **stealthy** attack is an attack that cannot be detected at the output. Obviously, these kind of attacks are particularly dangerous. A **disruptive** atttack is an attack that makes part of a system diverge. Let us denote the detection level as $L_\text{detect}$ and the hazard level as $L_\text{hazard}$, the actual state and output as $x$ and $y$ and the attack-free state and output as $x_{\text{af}}$ and $y_{\text{af}}$. Then a disruptive attack is an attack such that $||x(t_1)-x_{\text{af}}(t_1)|| \geq L_\text{hazard}$ for some ${t_1} \geq t_0$. For this attack to be stealthy, it must satisfy $||y(t)-y_{\text{af}}(t)|| \leq L_\text{detect}$ for all $t \in [t_0, t_1]$. [1]
 
 <br/>
 
