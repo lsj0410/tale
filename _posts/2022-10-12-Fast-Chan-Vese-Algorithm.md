@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[ED] 1. Active Contours without Edges [1]"
+title: "[ED] Fast Chan-Vese Algorithm"
 author: "SJ Lee"
 tags: Edge-Detection Paper-Review
 ---
@@ -24,7 +24,7 @@ We have the energy functional defined in the Chan-Vese model as follows.
 $$
 \begin{equation}
 \begin{split}
-F(C, c_1, c_2 ) &= \mu \cdot \text{Length} (C) \\\\\\
+F(C, c_1, c_2 ) {} &= \mu \cdot \text{Length} (C) \\\\\\
 &+ \lambda _1 \int_{inside(C)}{|u_0 - c_1 |^2 dxdy} \\\\\\
 &+ \lambda_2 \int_{outside(C)} {|u_0 - c_2 |^2 dxdy}
 \end{split}
@@ -34,7 +34,7 @@ $$
 $$
 \begin{equation}
 \begin{split}
-F(\phi, c_1, c_2 ) &= \mu \int_\Omega |\nabla H(\phi)|dxdy \\\\\\
+F(\phi, c_1, c_2 ) {} &= \mu \int_\Omega |\nabla H(\phi)|dxdy \\\\\\
 &+ \lambda _1 \int_\Omega{|u_0 - c_1 |^2 H(\phi)dxdy} \\\\\\
 &+ \lambda_2 \int_\Omega {|u_0 - c_2 |^2 (1-H(\phi)) dxdy}
 \end{split}
