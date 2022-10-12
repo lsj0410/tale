@@ -25,8 +25,8 @@ $$
 \begin{equation}
 \begin{split}
 F(C, c_1, c_2 ) {} &= \mu \cdot \text{Length} (C) \\\\\\
-&+ \lambda _1 \int_{inside(C)}{|u_0 - c_1 |^2 dxdy} \\\\\\
-&+ \lambda_2 \int_{outside(C)} {|u_0 - c_2 |^2 dxdy}
+  & + \lambda _1 \int_{inside(C)}{|u_0 - c_1 |^2 dxdy} \\\\\\
+  & + \lambda_2 \int_{outside(C)} {|u_0 - c_2 |^2 dxdy}
 \end{split}
 \end{equation}
 $$
@@ -35,8 +35,8 @@ $$
 \begin{equation}
 \begin{split}
 F(\phi, c_1, c_2 ) {} &= \mu \int_\Omega |\nabla H(\phi)|dxdy \\\\\\
-&+ \lambda _1 \int_\Omega{|u_0 - c_1 |^2 H(\phi)dxdy} \\\\\\
-&+ \lambda_2 \int_\Omega {|u_0 - c_2 |^2 (1-H(\phi)) dxdy}
+  & + \lambda _1 \int_\Omega{|u_0 - c_1 |^2 H(\phi)dxdy} \\\\\\
+  & + \lambda_2 \int_\Omega {|u_0 - c_2 |^2 (1-H(\phi)) dxdy}
 \end{split}
 \end{equation}
 $$
