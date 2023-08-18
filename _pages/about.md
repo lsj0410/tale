@@ -5,6 +5,6 @@ author: "SJ Lee"
 permalink: /about/
 ---
 
-Hi! I'm Seungju Lee, an undergraduate student at Seoul National University studying Electrical Engineering and Mathematics.
+Hi! I'm Seungju Lee, a Ph.D. student at Princeton University studying Electrical and Computer Engineering.
 
 Thanks for reading!
